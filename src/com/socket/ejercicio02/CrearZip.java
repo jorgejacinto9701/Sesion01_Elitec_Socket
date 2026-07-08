@@ -13,7 +13,7 @@ public class CrearZip {
         public static void main(String[] args) {
             try {
 
-                String[] archivos = { "C:/cliente/archivo.pdf", "C:/cliente/datos.xlsx","C:/cliente/Disponibilidad.docx"};
+                String[] archivos = { "C:/cliente/2024f1n2.pdf", "C:/cliente/2024f1n1.pdf","C:/cliente/ARTIGOS.pdf"};
                 ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream("C:/cliente/comprimido.zip"));
                 for (String ruta : archivos) {
                     System.out.println("Archivo: " + ruta);
